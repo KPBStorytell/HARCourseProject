@@ -22,7 +22,7 @@ The tidy datasets created by the run-analysis.R script present these researchers
 the columns of the dataset contain one variable, the rows of the dataset contain one observation, unique identifiers are maintained, descriptive variable names are employed, and
 distinct variables are stored in distinct tables.
 
-1. hardata.csv (datafiles reproduced using a tidy-data format)
+1. hardata.csv (a subset of the original data recast using a tidy-data format)
 2. haravgdata.csv (new data describing the average(mean) values of the measures summarized in hardata by subject and by activity)
 
 # Codebook
@@ -33,7 +33,7 @@ distinct variables are stored in distinct tables.
 Each row of the dataset corresponds with a single set of measures collected by one subject performing one activity (in a fixed 
 time window). 
 Each column of the dataset contains a single variable. The dataset includes 66 variables describing 33 measures(mean and standard 
-deviation) from the original dataset and 3 variables noting the subject and activity (numeric and character) associated with the measure. This dataset includes both the test and training data observations.
+deviation) from the original dataset and 3 variables noting the subject and activity (numeric and character) associated with the measure. This dataset includes both the test and training data observations. The focal measures were selected following the guidance of the course project assignment (i.e., only measures with mean and standard deviation values).
 
 Variables distinguish time and frequency domain measures, body and gravitational acceleration components, jerk signals, mean or standard
 deviation measures, and information captured by 3-axial (X,Y, and Z directions) sensor signals. All measures have been standardized to ranges from -1 to 1.
