@@ -96,6 +96,9 @@ haravgdata <- haravgdata[,c(ncol(haravgdata),1:(ncol(haravgdata)-1))]
 write.csv(har, file = "hardata.csv",row.names=FALSE)
 write.csv(haravgdata, file = "haravgdata.csv",row.names=FALSE)
 
+#assignment submission instructions
+write.table(haravgdata, file = "haravgdata.txt",row.names=FALSE)
+
 # removing temporarty files
 remove(tempsub,tempsubdf,tempact,tempactdf)
 remove(xtest,xtrain,ytest,ytrain,test,train)
